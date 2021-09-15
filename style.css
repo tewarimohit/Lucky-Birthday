@@ -41,3 +41,28 @@ button {
     font-size: large;
     
 }
+.footer {
+    margin-top: 2rem;
+    
+    background-color: blueviolet;
+    padding: 2rem;;
+    color: cornsilk;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+}
+.footer .social-media {
+    list-style: none;
+    margin: 1rem;
+    padding-top: 1rem;
+    
+    color: cornsilk;
+}
+.list {
+    padding: 0.3rem;
+}
+.link {
+    padding-top: 3rem;
+    color: cornsilk;
+    text-decoration: none;
+    margin-top: 1rem;
+}
