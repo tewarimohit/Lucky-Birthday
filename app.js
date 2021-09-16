@@ -8,6 +8,7 @@ checkButton.addEventListener("click", function eventHandler() {
 
     const dob=birthDate.value;
 const sum=sumDob(dob);
+
 if(sum&&luckyNumber.value){
 if(sum%luckyNumber.value===0){
     outputAnswer.innerText="Your Birthday is lucky. 🎉";
@@ -31,3 +32,15 @@ function sumDob(dob) {
     }
     return sum;
 }
+/* or if we parseInt and replaceAll inside eventHandler
+
+function sumDob(dob) {
+   
+    var sum=0;
+   while(dob>0) {
+       sum=sum+(dob%10);
+       dob=Math.floor(dob/10);
+
+   }
+    return sum;
+}*/
