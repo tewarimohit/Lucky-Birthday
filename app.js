@@ -1,4 +1,4 @@
-//alert("Hello User!! We are not storing your pesonal information..😊")
+alert("Hello User!! We are not storing your pesonal information..😊")
 const birthDate = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#number-input");
